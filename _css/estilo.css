@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	background-color: white;
+	color: rgba(0,0,0,1);
+	font-family: arial, sans-serif;
+}
+
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #606060;
+	text-decoration: underline;
+}
+
+#corpo{
+	display: block; /*vira um bloco e pode flutuar na pagina*/
+	width: 650px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+#lateral{
+	display: block; /*vira um bloco e pode flutuar na pagina*/
+	width: 400px;
+	float: right;
+	padding-left: 0px;
+	padding-right: 15px;
+	background-color: #dddddd;
+	box-shadow: 2px 2px 2px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#lateral h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20pt;
+	color: #606060;	
+	margin-top: 0px;
+}
+
+#lateral h2{
+	background-color: #606060;
+	font-size: 13pt;
+	color: #ffffff;
+	padding: 5px;
+}
+
+#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+	text-align: center;
+	padding: 10px;
+}
+
+.fotos{
+	border: 1px solid green;
+	width: 300px;
+	box-shadow: 1px 1px 4px black;
+}
+
+#container{ /*formatacao da pagina*/
+	background-color: #ffffff;
+	width: 1100px;
+	margin: 10px auto;
+	padding: 10px;
+	position:relative;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+/*inicio formatacao cabecalho*/
+#cabecalho{
+	border-bottom: 1px solid #606060;
+	height: 150px;
+	background: url('../_imagens/glass-logo-peq.jpg') no-repeat 0px 90px;
+}
+
+header#cabecalho h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30pt;
+	color:  #606060;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+}
+
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	font-size: 13pt;
+	color:  #888888;
+	margin-top: -8px;
+}
+
+#icone{
+	position: absolute;
+	left: 930px;
+	top: 60px;
+	width: 180px;
+}
+/*fim formatacao cabecalho*/
+
+
+
+
+/*inicio formatacao menu*/
+nav{ display: block; /*vira um bloco e pode flutuar na pagina*/ }
+
+nav#menu ul{
+	list-style: none; /*tira as bolinhas da lista*/
+	text-transform: uppercase; /*todas letras maiuscula*/
+	position: absolute; /*com a posicao absoluta ele pode flutuar no site*/
+	top: 15px;
+	left: 500px; /*top e left marca a posicao na pagina*/ 
+}
+
+nav#menu li{
+	display: inline-block; /*itens do menu na horizontal*/
+	background-color: #dddddd; /*cor de fundo de cada item do menu*/
+	padding: 5px; /*espaço dentro do background*/
+	margin: 1px; /*espaço entre os itens*/
+	transition: background-color 1s; /*ao passar o mouse a transicao da cor dura 1seg*/
+}
+nav#menu li:hover{
+	background-color: #606060; /*cor quando o mouse está em cima*/
+}
+
+nav#menu a{
+		text-decoration: none; /*link sem sublinhado*/
+		color: #000000; /*letra com cor preta*/
+}
+
+nav#menu a:hover{
+	color: #ffffff; /*ao passar o mouse a letra fica branca*/
+}
+/*fim formatacao topo e menu*/
+
+#tabela{/*formatacao tabela especificacoes*/
+	border: 1px solid #606060;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#tabela td{
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+th{
+	border: 1px solid #606060;
+	color: #888888;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+th span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 10px;
+}
+
+.ce{ /*coluna da esquerda da tabela*/
+	color: #ffffff;
+	background-color: #606060;
+	vertical-align: top;
+	font-weight: bold;
+}
+
+.cd{ /*coluna da direita da tabela*/
+	background-color: #cecece;
+	text-align: left;
+
+}
+
+#noticia-principal h2{
+	font-size: 13pt;
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+#cabecalho-artigo h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+#cabecalho-artigo h3{
+	font-size: 12pt;
+	color: #606060;
+	margin-top: 20px;
+}
+.alinhado-direita {
+	text-align: right;
+}
